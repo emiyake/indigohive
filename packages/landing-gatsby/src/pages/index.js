@@ -49,8 +49,8 @@ export default () => {
             <WorkSection />
             <MilestoneBlock />
             <PromotionBlock />
-            <DonateSection /> */}
-            <MapSection /> */}
+            <DonateSection /> 
+            <MapSection /> 
             <FundraiserSection />
             <BlogSection />
             <ClientBlock />

@@ -7,7 +7,8 @@ import React from 'react';
 // import GlideCarousel from 'common/src/components/GlideCarousel';
 // import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
 // import LeftBar from './leftBar';
-import IntroMp4 from 'common/src/assets/video/intro.mp4';
+// import IntroMp4 from 'common/src/assets/video/intro.mp4';
+import styled from 'styled-components';
 
 // import BannerWrapper, {
 //   ContentWrapper,
@@ -15,6 +16,30 @@ import IntroMp4 from 'common/src/assets/video/intro.mp4';
 //   ImageArea,
 // } from './bannerSection.style';
 
+
+const VideFgStyled = styled.div`
+  position: relative;
+  pointer-events: none;
+
+& iframe {
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+  }
+`;
+
+
+const Video = ({ videoSrcURL, videoTitle }) => (
+  <VideFgStyled>
+    <iframe
+      src={videoSrcURL}
+      title={videoTitle}
+      allowFullScreen={true}
+      frameBorder='0'
+
+    />
+  </VideFgStyled>
+)
 
 const BannerSection = () => {
   // const glideOptions = {
@@ -41,9 +66,10 @@ const BannerSection = () => {
   // `);
 
   return (
-    <video controls={false} autoPlay={true} muted={true} width={'100%'} loop={true}>
-      <source src={IntroMp4} type="video/mp4" />
-    </video>
+    <Video
+      videoSrcURL="https://www.youtube.com/embed/WLeFxCa1oTA?controls=0&showinfo=0&rel=0&autoplay=1&playlist=WLeFxCa1oTA&loop=1&mute=1"
+      videoTitle="Indigo Hive intro"
+    />
   );
 };
 
