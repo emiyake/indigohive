@@ -3,10 +3,12 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Scrollspy from 'react-scrollspy';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Drawer from 'reusecore/src/elements/Drawer';
-import Image from 'reusecore/src/elements/Image';
+// import Image from 'reusecore/src/elements/Image';
 import { DrawerContext } from 'common/src/contexts/DrawerContext';
-import InnerWrapper, { SpreadButton } from './drawerSection.style';
-import heartImage from 'common/src/assets/image/charity/heart-red.png';
+import InnerWrapper from './drawerSection.style';
+// import { SpreadButton } from './drawerSection.style';
+
+// import heartImage from 'common/src/assets/image/charity/heart-red.png';
 
 const DrawerSection = () => {
   const [toggleState, setToggleState] = useState(false);

@@ -8,8 +8,8 @@ import Heading from 'reusecore/src/elements/Heading';
 import Container from 'common/src/components/UI/Container';
 import BlockWrapper, {
   ContentWrapper,
-  List,
-  Item,
+  // List,
+  // Item,
   ImageWrapper,
 } from './promotionBlock.style';
 
@@ -35,7 +35,7 @@ const PromotionBlock = ({ row, col }) => {
     title,
     text1,
     text2,
-    lists,
+    // lists,
     image,
   } = data.charityJson.promotionData;
 
