@@ -26,7 +26,7 @@ export const menuItems = [
     offset: '81',
   },
   {
-    label: 'O que queremos?',
+    label: 'A Indigo Hive',
     path: '#branch',
     offset: '100',
   },
@@ -95,7 +95,7 @@ import featureIcon5 from 'common/src/assets/image/charity/feature/5.svg';
 import featureIcon6 from 'common/src/assets/image/charity/feature/6.svg';
 
 export const featureData = {
-  title: 'O que queremos?',
+  title: 'A Indigo Hive?',
   slogan: '          ',
   features: [
     {
@@ -341,6 +341,7 @@ export const promotionData = {
     'We exist to permanently end violent conict and exploitation facing our world’s most isolated and unprotected communities.',
   text2:
     'We partner with local visionaries in volatile conict zones to build community-run initiatives and drive global policy change to end violent conict, save lives, and give communities the safety they deserve.',
+  text3: '',
   lists: [
     {
       id: 1,
@@ -476,38 +477,38 @@ export const clients = [
 export const menuWidgets = [
   {
     id: 1,
-    title: 'FUNDRAISE FOR',
+    title: 'X',
     menu: [
       {
         id: 1,
-        text: 'Medical',
+        text: 'Challenge',
         link: '#1',
       },
       {
         id: 2,
-        text: 'Emergency',
+        text: 'Sprint',
         link: '#1',
       },
       {
         id: 3,
-        text: 'Memorial',
+        text: 'Consultorias',
         link: '#1',
       },
       {
         id: 4,
-        text: 'Education',
+        text: 'Capacitações',
         link: '#1',
       },
-      {
-        id: 5,
-        text: 'Charity',
-        link: '#1',
-      },
-      {
-        id: 6,
-        text: 'Nonprofit organization',
-        link: '#1',
-      },
+      // {
+      //   id: 5,
+      //   text: 'Charity',
+      //   link: '#1',
+      // },
+      // {
+      //   id: 6,
+      //   text: 'Nonprofit organization',
+      //   link: '#1',
+      // },
     ],
   },
   {

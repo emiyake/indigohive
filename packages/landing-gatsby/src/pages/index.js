@@ -8,16 +8,16 @@ import Navbar from '../containers/Charity/Navbar';
 import DrawerSection from '../containers/Charity/DrawerSection';
 import BannerSection from '../containers/Charity/BannerSection';
 import FeatureSection from '../containers/Charity/FeatureSection';
-// import BranchSection from '../containers/Charity/BranchSection';
+import BranchSection from '../containers/Charity/BranchSection';
 import WorkSection from '../containers/Charity/WorkSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 import HumanityBlock from '../containers/Charity/HumanityBlock';
 import PromotionBlock from '../containers/Charity/PromotionBlock';
-// import DonateSection from '../containers/Charity/DonateSection';
-// import MapSection from '../containers/Charity/MapSection';
-// import FundraiserSection from '../containers/Charity/FundraiserSection';
-// import BlogSection from '../containers/Charity/BlogSection';
-// import ClientBlock from '../containers/Charity/ClientBlock';
+import DonateSection from '../containers/Charity/DonateSection';
+import MapSection from '../containers/Charity/MapSection';
+import FundraiserSection from '../containers/Charity/FundraiserSection';
+import BlogSection from '../containers/Charity/BlogSection';
+import ClientBlock from '../containers/Charity/ClientBlock';
 import Footer from '../containers/Charity/Footer';
 import {
   GlobalStyle,
@@ -41,23 +41,23 @@ export default () => {
           <DrawerProvider>
             <DrawerSection />
           </DrawerProvider>
-          <ContentWrapper>
+          <ContentWrapper> 
             <BannerSection />
+            <HumanityBlock /> 
             <FeatureSection />
-            {/* <BranchSection /> */}
+            <BranchSection />
             <WorkSection />
             <MilestoneBlock />
-            <HumanityBlock />
             <PromotionBlock />
-            {/* <DonateSection /> */}
-            {/* <MapSection /> */}
-            {/* <FundraiserSection /> */}
-            {/* <BlogSection /> */}
-            {/* <ClientBlock /> */}
+            <DonateSection /> */}
+            <MapSection /> */}
+            <FundraiserSection />
+            <BlogSection />
+            <ClientBlock />
           </ContentWrapper>
           <Footer />
         </CharityWrapper>
-        {/* End of charity wrapper section */}
+        End of charity wrapper section
       </Fragment>
     </ThemeProvider>
   );

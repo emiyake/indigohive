@@ -11,13 +11,13 @@ import {
 import { base, themed } from '../base';
 
 const HeadingWrapper = styled('p')(
+  themed('Heading'),
   base,
   fontFamily,
   fontWeight,
   textAlign,
   lineHeight,
-  letterSpacing,
-  themed('Heading')
+  letterSpacing
 );
 
 const Heading = ({ content, ...props }) => (

@@ -145,6 +145,7 @@ export const Item = styled.li`
     font-size: 15px;
     line-height: 20px;
   }
+  font-weight: bold;
 `;
 
 export default BlockWrapper;

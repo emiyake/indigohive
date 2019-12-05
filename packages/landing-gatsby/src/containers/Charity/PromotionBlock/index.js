@@ -25,6 +25,7 @@ const PromotionBlock = ({ row, col }) => {
           title
           text1
           text2
+          text3
         }
       }
     }
@@ -35,6 +36,7 @@ const PromotionBlock = ({ row, col }) => {
     title,
     text1,
     text2,
+    text3,
     // lists,
     image,
   } = data.charityJson.promotionData;
@@ -49,6 +51,7 @@ const PromotionBlock = ({ row, col }) => {
               <Heading content={title} />
               <Text content={text1} />
               <Text content={text2} />
+              <Text content={text3} />
               {/* <a href="#1" className="learn__more-btn">
                 <span className="hyphen" />
                 <span className="btn_text">Learn More </span>

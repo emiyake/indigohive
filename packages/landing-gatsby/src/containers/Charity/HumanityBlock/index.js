@@ -13,6 +13,12 @@ import BlockWrapper, {
   ImageWrapper,
 } from './humanityBlock.style';
 
+import styled from 'styled-components';
+
+const Subtitulo = styled.h4`
+  margin-bottom: 0;
+`;
+
 const HumanityBlock = ({ row, col }) => {
   const data = useStaticQuery(graphql`
     query {
@@ -47,12 +53,24 @@ const HumanityBlock = ({ row, col }) => {
           <Box className="col" {...col}>
             <ContentWrapper>
               <Heading as="h5" content={slogan} />
-              <Heading content={title} />
+              <Heading content={title}/>
               <Text content={text} />
               <List>
-                {lists.map(item => (
-                  <Item key={`list_key${item.id}`}>{item.text}</Item>
-                ))}
+                <Subtitulo>Indigo.X</Subtitulo>
+                É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.
+
+                <Subtitulo>Indigo.Social</Subtitulo>
+                Área voltada para a promoção de projetos sociais. Aqui, realizamos mentorias, cursos, oficinas e atividades diverrsas com pessoas em algum tipo de marginalização social. Também empoderamos vários dos jovens que adentram na Indigo por meio desse braço para que atuem em outras frentes da Indigo, como realizando projetos ou mesmo sendo acelerado para um futuro empreendedor.
+
+                <Subtitulo>Ecossistema Indigo</Subtitulo>
+                Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: talks, lean coffees, design jams e hackathons, bem como constituimos núcleos voltados paar áreas de atuação específicas, como o Indigo.health.
+
+                {/* {lists.map(item => (
+                  <>
+                    <Item key={`list_key${item.id}`}>{item.text}</Item>
+                    fdfdfd
+                  </>
+                ))} */}
               </List>
 
               {/* <a className="learn__more-btn" href="#1">

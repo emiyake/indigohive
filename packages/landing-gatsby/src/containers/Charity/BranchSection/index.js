@@ -8,20 +8,36 @@ import Tab, { Panel } from 'common/src/components/Tabs';
 import SectionWrapper, { ContentWrapper } from './branchSection.style';
 
 const BranchSection = () => {
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     charityJson {
+  //       branchData {
+  //         id
+  //         menuItem
+  //         image {
+  //           publicURL
+  //           childImageSharp {
+  //             fluid(quality: 100) {
+  //               ...GatsbyImageSharpFluid
+  //             }
+  //           }
+  //         }
+  //         slogan
+  //         title
+  //         description
+  //         linkUrl
+  //         linkText
+  //       }
+  //     }
+  //   }
+  // `);
   const data = useStaticQuery(graphql`
     query {
       charityJson {
         branchData {
           id
           menuItem
-          image {
-            publicURL
-            childImageSharp {
-              fluid(quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          image
           slogan
           title
           description
@@ -31,12 +47,13 @@ const BranchSection = () => {
       }
     }
   `);
-
   const title = text => {
     return { __html: text };
   };
 
   return (
+    <>
+    gg
     <SectionWrapper id="branch">
       <Tab active={2}>
         {data.charityJson.branchData.map(item => (
@@ -47,12 +64,8 @@ const BranchSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <Image
-                    fluid={
-                      (item.image !== null) | undefined
-                        ? item.image.childImageSharp.fluid
-                        : {}
-                    }
+                  <img
+                    src={item.image.publicURL}
                     alt={`Charity landing image ${item.id}`}
                     className="tab_image"
                   />
@@ -72,6 +85,7 @@ const BranchSection = () => {
         ))}
       </Tab>
     </SectionWrapper>
+    </>
   );
 };
 

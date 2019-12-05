@@ -1,7 +1,7 @@
 {
   "menuItems": [
     {
-      "label": "O que queremos?",
+      "label": "A Indigo Hive",
       "path": "#feature",
       "offset": "81"
     },
@@ -16,7 +16,7 @@
       "offset": "81"
     },
     {
-      "label": "Nossas iniciativas",
+      "label": "A rede",
       "path": "#initiave",
       "offset": "81"
     },
@@ -45,44 +45,44 @@
     }
   ],
   "featureData": {
-    "title": "O que queremos?",
-    "slogan": "Desenvolver pessoas por meio de jornadas para seu sucesso individual e impacto coletivo.",
+    "title": "O mindset Indigo",
+    "slogan": "Acreditamos que para transformar o mundo precisamos transformar as pessoas e, para isso, começamos dentro de casa o trabalho de reformar as pessoas para potencializar as realizações em nosso ecossistema.",
     "features": [
       {
         "id": 1,
         "icon": "../../assets/image/charity/feature/10.svg",
-        "title": "Descubra-se!",
-        "description": "Passe por processos de aprendizado sobre si mesmo e reflexão crítica sobre sua futura jornada."
+        "title": "Life-long learners",
+        "description": "Acreditamos que a vida é um processo de constante aprendizado. Mais que isso, estruturamos nosso ecossistema para maximizar as experiências e os ensinamentos, para que consigamos de forma mais enérgica e otimizada chegar aonde queremos."
       },
       {
         "id": 2,
         "icon": "../../assets/image/charity/feature/60.svg",
-        "title": "Conheça o ecossistema!",
-        "description": "Aventure-se pelas iniciativas da Indigo e inicie seu desenvolvimento pessoal em nossa rede."
+        "title": "Data-driven e action-oriented",
+        "description": "Pautamos nossas ações em aprendizados validados. Alimentamos ao máximo a crítica, o diálogo e o entendimento sobre as situações de nosso entorno. Com isso, esperamos guiar nossas atividades em conhecimentos sólidos, minimizando nosso erro e otimizando o nosso papel transformador."
       },
       {
         "id": 3,
         "icon": "../../assets/image/charity/feature/20.svg",
-        "title": "Crie um caminho!",
-        "description": "Conecte-se com mentores de peso para criar a sua jornada individual e seja auxiliado nos passos futuros do 'Zero to Hero'."
+        "title": "Cut the bullshit",
+        "description": "Junto ao nosso pragmatismo na crítica sobre aprendizados e na tomada de decisões, tentamos ao máximo cortar excessos, superficialidades e ineficências. Sendo tão ávidos por mudar o mundo como somos, não dá parar perder tempo com besteira!."
       },
       {
         "id": 4,
         "icon": "../../assets/image/charity/feature/30.svg",
-        "title": "Agora é o seu momento!",
-        "description": "Insira-se em iniciativas concretas e/ou desenvolva a sua própria, passando por todo o processo de pré-aceleração e mentoria de nosso board."
+        "title": "Hands on!",
+        "description": "Não dá para ficar só teorizando... Junto à promoção intensa do protoganismo individual de cada um dentro de nossa rede, sempre estimulamos a conversão dos aprendizados e capacitações em realizações palpáveiis. Não só porque aprendemos mais assim: testanto, errando e fazendo, como tabém por entendermos que só completaremos nossa missão se, desde já, começarmos a por a mão na massa."
       },
       {
         "id": 5,
         "icon": "../../assets/image/charity/feature/40.svg",
-        "title": "Ao infinito e além!",
-        "description": "Viva a jornada de desenvolvimento do projeto, passando por seus aprendizados, metodologias, conexões e evoluções."
+        "title": "Triangulate with believable ones",
+        "description": "A nossa rede não é tão diversa em expertises, áreas e profundidade de conhecimentos, origens e miindesets por acaso. A composição diversa com pessoas excepcionais é terra fértil para evolução de cada indivíduo da Indigo Hive. Sempre procure aprender com outros que saibam mais que você sobre dado tema!"
       },
       {
         "id": 6,
         "icon": "../../assets/image/charity/feature/50.svg",
-        "title": "Fechando o ciclo!",
-        "description": "Continue sua participação no grupo como mentor, investidor ou mesmo case de sucesso para inspirar os novos membros."
+        "title": "Have a purpose",
+        "description": "Além de sempre incentivarmos a ajuda às pessoas ao nosso redor, estimulamos a procura constante por propósito. Queremos que você construa sua jornada e que possamos dar suporte às realizações intrínsecas a ese processo. Por isso, saber para aonde se quer chegar é fundamental."
       }
     ]
   },
@@ -90,20 +90,20 @@
     {
       "id": 1,
       "menuItem": "Edmar Miyake",
-      "image": "../../assets/image/charity/branch/image1.png",
-      "slogan": "WITH YOUR LOVE",
-      "title": "We’ve funded <strong>12,925</strong> water projects for <strong>5.2 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "../../assets/image/charity/branch/edmar.png",
+      "slogan": "Mentor",
+      "title": "Edmar Miyake",
+      "description": "Edmar Miyake iniciou sua carreira empreendedora aos 23 anos, fundando a Compass, mas, desde lá, vem criando e fomentando outras startups. Atualmente é fundador da Taqtile, sócio da Black Iron Design e proprietário e coach da CrossFit Perdizes. Contribui também para diversas iniciativas empreendedoras como mentor e investidor-anjo nas horas vagas.Aborda o empreendedorismo como alicerce para transformação das pessoas e mudança do status quo. Em suas iniciativas, busca sempre convergir o sucesso financeiro com o desenvolvimento de agentes e instituições capazes de gerar impactos positivos ao mundo. Em seus projetos, promove os valores de aprendizado contínuo e compartilhamento de conhecimento, pois acredita que são comportamentos basilares para o autoconhecimento e evolução do próximo. Seu propósito se alinha perfeitamente aos ideais da Indigo.hive e portanto, desejou fazer parte desta rede que conta com pessoas brilhantes dispostas a causar grande impacto na vida das pessoas e da sociedade.",
       "linkUrl": "#1",
       "linkText": "SEE MORE OF OUR IMPACT"
     },
     {
       "id": 2,
       "menuItem": "Erica Isomura",
-      "image": "../../assets/image/charity/branch/image2.png",
-      "slogan": "WITH YOUR CARE",
-      "title": "We’ve funded <strong>19,571</strong> water projects for <strong>6.7 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "../../assets/image/charity/branch/edmar.png",
+      "slogan": "Mentor",
+      "title": "Erica Isomura",
+      "description": "Erica Isomura é sócia da Corall, consultora e coach sistêmica com mais de 15 anos de experiência em estratégia e gestão com pessoas, especialista em desenvolvimento humano e organizacional, mudança cultural, desenvolvimento de liderança e times. Trabalha com implantação e cocriação de modelos alternativos de gestão, tais como: empresas horizontais sem chefes, autogeridas em redes e flats em contextos tecnológicos e criativos. Nos últimos cinco anos esteve focada em estudar e implantar sistemas de gestão compartilhada e colaborativa, trazendo alternativas para as interações sociais nas organizações com feedbacks abertos, pesquisa de clima contínua, avaliação de percepção participativa, coleta contínua de dados sociais e tomadas de decisão em rede. Doutoranda em psicologia social, pela Universidade John F. Kennedy, especialista em estratégia e gestão de pessoas pela Fundação Getúlio Vargas, psicóloga, Executive & Professional Coach certificada pela Behavioural Coach Institute e International Coaching Council, facilitadora de grupos QUEST e mentora pelo CAC - Center for Advanced Coach e consteladora sistêmica pelo Instituto Koziner. Professora universitária e pesquisadora da espiritualidade organizacional e das relações de trabalho do futuro.",
       "linkUrl": "#1",
       "linkText": "SEE MORE OF OUR IMPACT"
     },
@@ -111,7 +111,7 @@
       "id": 3,
       "menuItem": "Ricardo di Lazzaro Filho",
       "image": "../../assets/image/charity/branch/image.png",
-      "slogan": "WITH YOUR HELP",
+      "slogan": "Mentor",
       "title": "We’ve funded <strong>29,725</strong> water projects for <strong>8.4 million</strong> people around the world.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "linkUrl": "#1",
@@ -121,7 +121,7 @@
       "id": 4,
       "menuItem": "Ivisen Lourenço",
       "image": "../../assets/image/charity/branch/image3.png",
-      "slogan": "WITH YOUR LOVE",
+      "slogan": "Mentor",
       "title": "We’ve funded <strong>10,792</strong> water projects for <strong>4.9 million</strong> people around the world.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "linkUrl": "#1",
@@ -131,9 +131,9 @@
       "id": 5,
       "menuItem": "Vinicius Oyama",
       "image": "../../assets/image/charity/branch/image4.png",
-      "slogan": "WITH YOUR CARE",
-      "title": "We’ve funded <strong>10,071</strong> water projects for <strong>3.7 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "slogan": "Mentor",
+      "title": "Vinicius Oyama",
+      "description": "Fundador da Codus, consultoria de produtos digitais, começou a empreender com 22 anos no último ano da faculdade. Vinicius passou pelo ciclo completo de uma empresa bem sucedida: tirou do papel seu sonho concebido na sala de casa, passou pela consolidação, pelo crescimento e, fechando o ciclo, passou pela aquisição de sua empresa. Aficcionado por tecnologia e muito curioso, não só entendendo, mas participando ativamente no impacto que ela pode gerar nas pessoas e na sociedade, formou iniciativas de ensino e mentorias dentro da própria empresa, proporcionando valiosos aprendizados a muitas pessoas que por lá passaram. Aprender, colaborar, criar e se desafiar são valores que sempre nortearam suas ações. Assim, a IndigoHive se conecta enquanto oportunidade para que ele possa reafirmar todos esses valores, utilizar sua experiência para ajudar outras pessoas e também aprender muito nessa jornada!",
       "linkUrl": "#1",
       "linkText": "SEE MORE OF OUR IMPACT"
     },
@@ -141,7 +141,7 @@
       "id": 6,
       "menuItem": "Lucas Baraças",
       "image": "../../assets/image/charity/branch/image5.png",
-      "slogan": "WITH YOUR HELP",
+      "slogan": "Mentor",
       "title": "We’ve funded <strong>19,792</strong> water projects for <strong>7.9 million</strong> people around the world.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "linkUrl": "#1",
@@ -149,26 +149,26 @@
     }
   ],
   "workData": {
-    "title": "O que fazemos?",
-    "slogan": "Conectamos, capacitamos e criamos, fornecendo suporte para a sua jornada.",
+    "title": "A Indigo Hive",
+    "slogan": "Nossa instituição apresenta 3 principais braços de atuação, todos conectados e integrados à associação denominada Indigo Hive.",
     "features": [
       {
         "id": 1,
         "icon": "../../assets/image/charity/connection.svg",
-        "title": "Conectamos",
-        "description": "Conectamos mentores, desafios, oportunidades e todo o ecossistema de ações da Indigo a você."
+        "title": "Indigo.X",
+        "description": "É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações."
       },
       {
         "id": 2,
         "icon": "../../assets/image/charity/goal.svg",
-        "title": "Capacitamos",
-        "description": "Trazemos ferramentas, cursos, contatos com pessoas de acreditação e experiências in loco para o seu desenvolvimento, permeando os temas de empreendedorismo, gestão, inovação, tecnologia, negócios e muito mais!"
+        "title": "Indigo.Social",
+        "description": "Área voltada para a promoção de projetos sociais. Aqui, realizamos mentorias, cursos, oficinas e atividades diverrsas com pessoas em algum tipo de marginalização social. Também empoderamos vários dos jovens que adentram na Indigo por meio desse braço para que atuem em outras frentes da Indigo, como realizando projetos ou mesmo sendo acelerado para um futuro empreendedor."
       },
       {
         "id": 3,
         "icon": "../../assets/image/charity/idea.svg",
-        "title": "Criamos",
-      "description": "Além de sua jornada, pretendemos, junto a você, criar iniciativas transformadoras, soluções e negócios, além de inúmeras ações relacionadas ao nosso ecossistema e proposta de valor."
+        "title": "Ecossistema Indigo",
+      "description": "Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: Talks, Lean Coffees, Design Jams, Hackathons e núcleos, como o Health"
       }
     ]
   },
@@ -195,30 +195,31 @@
     ]
   },
   "humanityData": {
-    "image": "../../assets/image/charity/indigo-hive.svg",
-    "slogan": "NOSSAS INICIATIVAS",
+    "image": "../../assets/image/charity/estruturaIndigo.png",
+    "slogan": "Nossa rede",
     "title": "Indigo Hive",
-    "text": "A Indigo Hive faz jus ao seu nome, atuando como uma verdadeira colmeia que conecta pessoas e oportunidades. Acreditamos no desenvolvimento dos participantes por meio do ecossistema que estamos criando é o principal de nossa missão. Assim, algumas iniciativas, além do core de desenvolvimento de pessoas e mentorias acabam agregando ao nosso projeto.",
+    "text": "A Indigo Hive faz jus ao seu nome, atuando como uma verdadeira colmeia que conecta pessoas e oportunidades.\nAcreditamos no desenvolvimento dos participantes por meio do ecossistema que estamos criando. Por isso, dividimos nossa iniciativa em 3 grandes braços:",
     "lists": [
       {
         "id": 1,
-        "text": "Indigo.challenge"
+        "text": "Indigo.X"
       },
       {
         "id": 2,
-        "text": "Indigo.leancoffee e Indigo.jams"
+        "text": "Indigo.Social"
       },
       {
         "id": 3,
-        "text": "Indigo.talks"
+        "text": "Ecossistema Indigo"
       }
     ]
   },
   "promotionData": {
     "slogan": "Missão e valores",
     "title": "De sonhadores para transformadores",
-    "text1": "Acreditamos que o cenário atual seja um fértil terreno de oportunidades para melhorarmos o mundo, mas precisamos otimizar o processo de impacto, aproveitando os aprendizados existentes e conectando ações sinérgicas.",
-    "text2": "Pessoas excepcionais inconformadas com suas realidades, amantes do conhecimento e ávidas por sua evolução e progresso coletivo são o nosso alvo e, ao mesmo tempo, nossa matéria-prima.",
+    "text1": "Buscamos criar um série de orientações, facilitações e estruturas favoráveis à pontencialização do sucesso individual de nossos membros para incrementarmos o impacto no coletivo.", 
+    "text2": "Acreditamos que o empreendedorismo é um caminho capaz de guiar a transformação de nossa sociedade e que são os jovens o público mais crucial para essa mudança. Estimulamos o protagonismo, a crítica, a coparticipação e a transdisciplinaridade, posionando-nos como uma instituição, sobretudo, de conexão e de facilitação.\nAbraçando conceitos como \"life-long learners\", \"cut the bullshit\",  \"data-driven\" e \"action-oriented\" e \"hands on\", apoiamos um mindset de pessoas que estão sempre aprendendo, sendo pragmáticas, coerentes e direcionadas pela realização embasada em crítica analítica, partcipativas e ávidas pela geração de impacto. Por fim, acreditamos no profundo apoio social, mobilizando nossos recursos para ajudar os outros em nosso entorno e, juntos, fazermos o máximo que nos é possível para fazer o futuro um tempo que valha cada vez mais a pena ser vivido.",
+    "text3": "Somos Indigo, uma geração de jovens otimistas, porém impacientes quanto a implementação de mudanças no status quo e capazes de estabelecer conexões inéditas entre vários campos do conhecimento humano nos orientando para a conciliação da realização pessoal na transformação social",
     "lists": [
     ],
     "image": "../../assets/image/charity/team-spirit.svg"
@@ -313,103 +314,78 @@
   "menuWidgets": [
     {
       "id": 1,
-      "title": "FUNDRAISE FOR",
+      "title": "Indigo.X",
       "menu": [
         {
           "id": 1,
-          "text": "Medical",
+          "text": "Challenge",
           "link": "#1"
         },
         {
           "id": 2,
-          "text": "Emergency",
+          "text": "Sprint",
           "link": "#1"
         },
         {
           "id": 3,
-          "text": "Memorial",
+          "text": "Consultoria",
           "link": "#1"
         },
         {
           "id": 4,
-          "text": "Education",
-          "link": "#1"
-        },
-        {
-          "id": 5,
-          "text": "Charity",
-          "link": "#1"
-        },
-        {
-          "id": 6,
-          "text": "Nonprofit organization",
+          "text": "Capacitação",
           "link": "#1"
         }
       ]
     },
     {
       "id": 2,
-      "title": "LEARN MORE",
+      "title": "Ecossistema Indigo",
       "menu": [
         {
           "id": 1,
-          "text": "How invisiblechildren works",
+          "text": "Talks",
           "link": "#1"
         },
         {
           "id": 2,
-          "text": "Pricing and Fees",
+          "text": "Lean coffees",
           "link": "#1"
         },
         {
           "id": 3,
-          "text": "Common questions",
+          "text": "Design jams",
           "link": "#1"
         },
         {
           "id": 4,
-          "text": "Success stories",
+          "text": "Hackathons",
           "link": "#1"
         },
         {
           "id": 5,
-          "text": "Supported countries",
+          "text": "Health",
           "link": "#1"
         }
       ]
     },
     {
       "id": 3,
-      "title": "RESOURCES",
+      "title": "Indigo.Social",
       "menu": [
         {
           "id": 1,
-          "text": "Help center",
+          "text": "Cursos",
           "link": "#1"
         },
         {
           "id": 2,
-          "text": "Blog",
+          "text": "Acelerações",
           "link": "#1"
         },
         {
           "id": 3,
-          "text": "GoFundMe Stories",
-          "link": "#1"
-        },
-        {
-          "id": 4,
-          "text": "Press center",
-          "link": "#1"
-        },
-        {
-          "id": 5,
-          "text": "Careers",
-          "link": "#1"
-        },
-        {
-          "id": 6,
-          "text": "About",
+          "text": "Mentorias",
           "link": "#1"
         }
       ]

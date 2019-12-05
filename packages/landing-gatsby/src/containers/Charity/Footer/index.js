@@ -47,14 +47,17 @@ const Footer = ({ row, col, colOne, colTwo }) => {
               <Image src={LogoImage} alt="Charity" />
             </Link>
 
-            <Text className="text" content="EU: +077 1456 5924" />
-            <Text className="text" content="US: +361-541-4241" />
+            <Text className="text" content="Facebook: facebook.com/indigo.hive" />
+            <Text className="text" content="Instagram: instagram.com/indigo.hive" />
+            <Text className="text" content="Linkedin: linkedin.com/company/indigohive" />
+            <Text className="text" content="Meetup: meetup.com/pt-BR/indigo-rocket/" />
+            <Text className="text" content="Medium: medium.com/indigo-hive" />
             <a
               aria-label="go to mail"
-              href="mailto:hello@redq.io"
+              href="mailto:contato@indigohive.com.br"
               className="mail"
             >
-              hello@redq.io
+              contato@indigohive.com.br
             </a>
             <SelectWrapper>
               <select aria-label="language switcher">
@@ -111,7 +114,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
           <SocialList>
             <li className="linkedin">
               <a
-                href="https://www.linkedin.com/company/redq-inc"
+                href="https://www.linkedin.com/company/indigohive"
                 aria-label="social share link"
               >
                 <Icon icon={linkedin} />
@@ -119,25 +122,25 @@ const Footer = ({ row, col, colOne, colTwo }) => {
             </li>
             <li className="facebook">
               <a
-                href="https://www.facebook.com/redqinc/"
+                href="https://www.facebook.com/indigo.hive"
                 aria-label="social share link"
               >
                 <Icon icon={facebook} />
               </a>
             </li>
-            <li className="twitter">
+            {/* <li className="twitter">
               <a
                 href="https://twitter.com/redqinc"
                 aria-label="social share link"
               >
                 <Icon icon={twitter} />
               </a>
-            </li>
-            <li className="github">
+            </li> */}
+            {/* <li className="github">
               <a href="https://github.com/RedQ" aria-label="social share link">
                 <Icon icon={github} />
               </a>
-            </li>
+            </li> */}
           </SocialList>
         </Box>
         {/* End of copyright row */}
