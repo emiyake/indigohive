@@ -50,38 +50,38 @@
     "features": [
       {
         "id": 1,
-        "icon": "../../assets/image/charity/feature/10.svg",
-        "title": "Life-long learners",
+        "icon": "../../assets/image/reading.png",
+        "title": "Eterno aprendiz",
         "description": "Acreditamos que a vida é um processo de constante aprendizado. Mais que isso, estruturamos nosso ecossistema para maximizar as experiências e os ensinamentos, para que consigamos de forma mais enérgica e otimizada chegar aonde queremos."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/charity/feature/60.svg",
-        "title": "Data-driven e action-oriented",
+        "icon": "../../assets/image/clapperboard.svg",
+        "title": "Orientado a ação",
         "description": "Pautamos nossas ações em aprendizados validados. Alimentamos ao máximo a crítica, o diálogo e o entendimento sobre as situações de nosso entorno. Com isso, esperamos guiar nossas atividades em conhecimentos sólidos, minimizando nosso erro e otimizando o nosso papel transformador."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/charity/feature/20.svg",
-        "title": "Cut the bullshit",
+        "icon": "../../assets/image/goal.svg",
+        "title": "Objetividade",
         "description": "Junto ao nosso pragmatismo na crítica sobre aprendizados e na tomada de decisões, tentamos ao máximo cortar excessos, superficialidades e ineficências. Sendo tão ávidos por mudar o mundo como somos, não dá parar perder tempo com besteira!."
       },
       {
         "id": 4,
-        "icon": "../../assets/image/charity/feature/30.svg",
-        "title": "Hands on!",
+        "icon": "../../assets/image/worker.svg",
+        "title": "Mão na massa!",
         "description": "Não dá para ficar só teorizando... Junto à promoção intensa do protoganismo individual de cada um dentro de nossa rede, sempre estimulamos a conversão dos aprendizados e capacitações em realizações palpáveiis. Não só porque aprendemos mais assim: testanto, errando e fazendo, como tabém por entendermos que só completaremos nossa missão se, desde já, começarmos a por a mão na massa."
       },
       {
         "id": 5,
-        "icon": "../../assets/image/charity/feature/40.svg",
-        "title": "Triangulate with believable ones",
+        "icon": "../../assets/image/chat.svg",
+        "title": "Triangule com pessoas de acreditação",
         "description": "A nossa rede não é tão diversa em expertises, áreas e profundidade de conhecimentos, origens e miindesets por acaso. A composição diversa com pessoas excepcionais é terra fértil para evolução de cada indivíduo da Indigo Hive. Sempre procure aprender com outros que saibam mais que você sobre dado tema!"
       },
       {
         "id": 6,
-        "icon": "../../assets/image/charity/feature/50.svg",
-        "title": "Have a purpose",
+        "icon": "../../assets/image/goal (1).svg",
+        "title": "Tenha um propósito",
         "description": "Além de sempre incentivarmos a ajuda às pessoas ao nosso redor, estimulamos a procura constante por propósito. Queremos que você construa sua jornada e que possamos dar suporte às realizações intrínsecas a ese processo. Por isso, saber para aonde se quer chegar é fundamental."
       }
     ]
