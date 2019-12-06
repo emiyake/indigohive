@@ -5,7 +5,7 @@ import Tab, { Panel } from 'common/src/components/Tabs';
 import SectionWrapper, { ContentWrapper } from './mentorSection.style';
 import Heading from 'reusecore/src/elements/Heading';
 import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'reusecore/src/elements/Image';
+import Image from 'gatsby-image';
 
 const MentorSection = () => {
   const data = useStaticQuery(graphql`
@@ -13,13 +13,25 @@ const MentorSection = () => {
       charityJson {
         mentorData {
           edmar {
-            publicURL
+            childImageSharp {
+              fluid(quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
           erica {
-            publicURL
+            childImageSharp {
+              fluid(quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
           ricardo {
-            publicURL
+            childImageSharp {
+              fluid(quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
       }
@@ -37,7 +49,7 @@ const MentorSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <Image src={ricardo.publicURL} alt="Ricardo di Lazzaro" />
+                  <Image fluid={ricardo.childImageSharp.fluid} alt="Ricardo di Lazzaro" />
                 </div>
               </Fade>
               <div className="content">
@@ -50,7 +62,7 @@ const MentorSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <Image src={edmar.publicURL} alt="Edmar Miyake" />
+                  <Image fluid={edmar.childImageSharp.fluid} alt="Edmar Miyake" />
                 </div>
               </Fade>
               <div className="content">
@@ -63,7 +75,7 @@ const MentorSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <Image src={erica.publicURL} alt="Erica Isomura" />
+                  <Image fluid={erica.childImageSharp.fluid} alt="Erica Isomura" />
                 </div>
               </Fade>
               <div className="content">

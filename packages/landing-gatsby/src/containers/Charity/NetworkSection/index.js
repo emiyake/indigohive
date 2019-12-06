@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import Box from 'reusecore/src/elements/Box';
-import Image from 'reusecore/src/elements/Image';
+import Image from 'gatsby-image';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Container from 'common/src/components/UI/Container';
@@ -24,7 +24,11 @@ const NetworkSection = ({ row, col }) => {
       charityJson {
         networkData {
           image {
-            publicURL
+            childImageSharp {
+              fluid(quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
       }
@@ -45,7 +49,7 @@ const NetworkSection = ({ row, col }) => {
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <ImageWrapper index={index}>
-              <Image src={image.publicURL} alt="Charity Landing" />
+              <Image fluid={image.childImageSharp.fluid} alt="Charity Landing" />
             </ImageWrapper>
           </Box>
           <Box className="col" {...col}>
