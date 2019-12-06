@@ -53,8 +53,8 @@ const HumanityBlock = ({ row, col }) => {
           <Box className="col" {...col}>
             <ContentWrapper>
               <Heading as="h5" content='' />
-              <Heading content="Ecossistema Indigo"/>
-              <Text content="Conjunto de iniciativas voltadas para a criação, capacitação, expansão e impacto de nossa comunidade." />
+              <Heading content="Indigo.Social"/>
+              <Text content="Braço da iniciativa voltado para projetos sociais." />
               <List>
               <Subtitulo>Treinamentos</Subtitulo>
               <Text content="Aqui se inserem algumas iniciativas, como cursos para jovens de baixa renda em temas como programação de computador, design thinking e empreendedorismo." />

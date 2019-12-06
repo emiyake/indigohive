@@ -8,7 +8,6 @@ import Navbar from '../containers/Charity/Navbar';
 import DrawerSection from '../containers/Charity/DrawerSection';
 import BannerSection from '../containers/Charity/BannerSection';
 import FeatureSection from '../containers/Charity/FeatureSection';
-import BranchSection from '../containers/Charity/BranchSection';
 import WorkSection from '../containers/Charity/WorkSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 import HumanityBlock from '../containers/Charity/Social';

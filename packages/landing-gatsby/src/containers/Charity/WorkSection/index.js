@@ -27,11 +27,13 @@ const WorkSection = () => {
           <BlogPost
             thumbUrl={Goal}
             title='Indigo.Social'
+            link='/social'
             excerpt='Área voltada para a promoção de projetos sociais. Aqui, realizamos mentorias, cursos, oficinas e atividades diverrsas com pessoas em algum tipo de marginalização social. Também empoderamos vários dos jovens que adentram na Indigo por meio desse braço para que atuem em outras frentes da Indigo, como realizando projetos ou mesmo sendo acelerado para um futuro empreendedor.'
           />
           <BlogPost
             thumbUrl={Idea}
             title='Ecossistema'
+            link='ecossistema'
             excerpt='Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: Talks, Lean Coffees, Design Jams, Hackathons e núcleos, como o Health.'
           />
         </FeatureWrapper>
