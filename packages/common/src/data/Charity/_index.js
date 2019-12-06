@@ -308,7 +308,7 @@ export const milestoneData = {
 import humanityGlob from 'common/src/assets/image/charity/humanity-glob.png';
 
 export const humanityData = {
-  image: humanityGlob,
+  // image: humanityGlob,
   slogan: 'ONLINE SOCIAL FUNDRAISING',
   title: 'We need your help to promotr humanity',
   text:

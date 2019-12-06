@@ -20,7 +20,9 @@ const BlockWrapper = styled.div`
 `;
 
 export const ImageWrapper = styled.div`
-  padding-right: 20px;
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transform: rotate(${(props) => `${props.index * 120}deg`});
   @media only screen and (max-width: 1360px) {
     padding-right: 0;
   }

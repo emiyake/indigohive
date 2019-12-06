@@ -8,7 +8,6 @@ import Navbar from '../containers/Charity/Navbar';
 import DrawerSection from '../containers/Charity/DrawerSection';
 import BannerSection from '../containers/Charity/BannerSection';
 import FeatureSection from '../containers/Charity/FeatureSection';
-import BranchSection from '../containers/Charity/BranchSection';
 import WorkSection from '../containers/Charity/WorkSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 import HumanityBlock from '../containers/Charity/HumanityBlock';
@@ -18,6 +17,7 @@ import MapSection from '../containers/Charity/MapSection';
 import FundraiserSection from '../containers/Charity/FundraiserSection';
 import BlogSection from '../containers/Charity/BlogSection';
 import ClientBlock from '../containers/Charity/ClientBlock';
+import MentorSection from '../containers/Charity/MentorSection';
 import Footer from '../containers/Charity/Footer';
 import {
   GlobalStyle,
@@ -45,19 +45,18 @@ export default () => {
             <BannerSection />
             <HumanityBlock /> 
             <FeatureSection />
-            <BranchSection />
+            <MentorSection />
             <WorkSection />
             <MilestoneBlock />
             <PromotionBlock />
-            <DonateSection /> 
+            {/* <DonateSection /> 
             <MapSection /> 
             <FundraiserSection />
             <BlogSection />
-            <ClientBlock />
+            <ClientBlock /> */}
           </ContentWrapper>
           <Footer />
         </CharityWrapper>
-        End of charity wrapper section
       </Fragment>
     </ThemeProvider>
   );

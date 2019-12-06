@@ -17,6 +17,35 @@ const SectionWrapper = styled.section`
     margin: 40px 0;
   }
 
+  > h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 300;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+    @media only screen and (max-width: 1440px) {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    @media only screen and (max-width: 1360px) {
+      font-size: 34px;
+      line-height: 50px;
+      margin-bottom: 27px;
+    }
+    @media only screen and (max-width: 991px) {
+      font-size: 30px;
+      line-height: 46px;
+      margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 767px) {
+      font-size: 28px;
+      line-height: 40px;
+    }
+  }
+
   .rq_tab {
     display: flex;
     flex-direction: row-reverse;
@@ -125,6 +154,7 @@ const SectionWrapper = styled.section`
     }
   }
 `;
+
 
 export const ContentWrapper = styled.div`
   display: flex;

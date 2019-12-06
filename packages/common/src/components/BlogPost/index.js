@@ -11,16 +11,15 @@ const BlogPost = ({ className, thumbUrl, title, excerpt, link }) => {
   }
 
   return (
-    <div className={addAllClasses.join(' ')}>
+    <a className={addAllClasses.join(' ')} href={link}>
       <div className="thumbnail">
         <img src={thumbUrl} alt={title} />
       </div>
       <div className="content">
         <h3 className="title">{title}</h3>
         <p className="excerpt">{excerpt}</p>
-        {link && <div className="learn_more">{link}</div>}
       </div>
-    </div>
+    </a>
   );
 };
 

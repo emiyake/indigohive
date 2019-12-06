@@ -86,92 +86,6 @@
       }
     ]
   },
-  "branchData": [
-    {
-      "id": 1,
-      "menuItem": "Edmar Miyake",
-      "image": "../../assets/image/charity/branch/edmar.png",
-      "slogan": "Mentor",
-      "title": "Edmar Miyake",
-      "description": "Edmar Miyake iniciou sua carreira empreendedora aos 23 anos, fundando a Compass, mas, desde lá, vem criando e fomentando outras startups. Atualmente é fundador da Taqtile, sócio da Black Iron Design e proprietário e coach da CrossFit Perdizes. Contribui também para diversas iniciativas empreendedoras como mentor e investidor-anjo nas horas vagas.Aborda o empreendedorismo como alicerce para transformação das pessoas e mudança do status quo. Em suas iniciativas, busca sempre convergir o sucesso financeiro com o desenvolvimento de agentes e instituições capazes de gerar impactos positivos ao mundo. Em seus projetos, promove os valores de aprendizado contínuo e compartilhamento de conhecimento, pois acredita que são comportamentos basilares para o autoconhecimento e evolução do próximo. Seu propósito se alinha perfeitamente aos ideais da Indigo.hive e portanto, desejou fazer parte desta rede que conta com pessoas brilhantes dispostas a causar grande impacto na vida das pessoas e da sociedade.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    },
-    {
-      "id": 2,
-      "menuItem": "Erica Isomura",
-      "image": "../../assets/image/charity/branch/edmar.png",
-      "slogan": "Mentor",
-      "title": "Erica Isomura",
-      "description": "Erica Isomura é sócia da Corall, consultora e coach sistêmica com mais de 15 anos de experiência em estratégia e gestão com pessoas, especialista em desenvolvimento humano e organizacional, mudança cultural, desenvolvimento de liderança e times. Trabalha com implantação e cocriação de modelos alternativos de gestão, tais como: empresas horizontais sem chefes, autogeridas em redes e flats em contextos tecnológicos e criativos. Nos últimos cinco anos esteve focada em estudar e implantar sistemas de gestão compartilhada e colaborativa, trazendo alternativas para as interações sociais nas organizações com feedbacks abertos, pesquisa de clima contínua, avaliação de percepção participativa, coleta contínua de dados sociais e tomadas de decisão em rede. Doutoranda em psicologia social, pela Universidade John F. Kennedy, especialista em estratégia e gestão de pessoas pela Fundação Getúlio Vargas, psicóloga, Executive & Professional Coach certificada pela Behavioural Coach Institute e International Coaching Council, facilitadora de grupos QUEST e mentora pelo CAC - Center for Advanced Coach e consteladora sistêmica pelo Instituto Koziner. Professora universitária e pesquisadora da espiritualidade organizacional e das relações de trabalho do futuro.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    },
-    {
-      "id": 3,
-      "menuItem": "Ricardo di Lazzaro Filho",
-      "image": "../../assets/image/charity/branch/image.png",
-      "slogan": "Mentor",
-      "title": "We’ve funded <strong>29,725</strong> water projects for <strong>8.4 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    },
-    {
-      "id": 4,
-      "menuItem": "Ivisen Lourenço",
-      "image": "../../assets/image/charity/branch/image3.png",
-      "slogan": "Mentor",
-      "title": "We’ve funded <strong>10,792</strong> water projects for <strong>4.9 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    },
-    {
-      "id": 5,
-      "menuItem": "Vinicius Oyama",
-      "image": "../../assets/image/charity/branch/image4.png",
-      "slogan": "Mentor",
-      "title": "Vinicius Oyama",
-      "description": "Fundador da Codus, consultoria de produtos digitais, começou a empreender com 22 anos no último ano da faculdade. Vinicius passou pelo ciclo completo de uma empresa bem sucedida: tirou do papel seu sonho concebido na sala de casa, passou pela consolidação, pelo crescimento e, fechando o ciclo, passou pela aquisição de sua empresa. Aficcionado por tecnologia e muito curioso, não só entendendo, mas participando ativamente no impacto que ela pode gerar nas pessoas e na sociedade, formou iniciativas de ensino e mentorias dentro da própria empresa, proporcionando valiosos aprendizados a muitas pessoas que por lá passaram. Aprender, colaborar, criar e se desafiar são valores que sempre nortearam suas ações. Assim, a IndigoHive se conecta enquanto oportunidade para que ele possa reafirmar todos esses valores, utilizar sua experiência para ajudar outras pessoas e também aprender muito nessa jornada!",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    },
-    {
-      "id": 6,
-      "menuItem": "Lucas Baraças",
-      "image": "../../assets/image/charity/branch/image5.png",
-      "slogan": "Mentor",
-      "title": "We’ve funded <strong>19,792</strong> water projects for <strong>7.9 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    }
-  ],
-  "workData": {
-    "title": "A Indigo Hive",
-    "slogan": "Nossa instituição apresenta 3 principais braços de atuação, todos conectados e integrados à associação denominada Indigo Hive.",
-    "features": [
-      {
-        "id": 1,
-        "icon": "../../assets/image/charity/connection.svg",
-        "title": "Indigo.X",
-        "description": "É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações."
-      },
-      {
-        "id": 2,
-        "icon": "../../assets/image/charity/goal.svg",
-        "title": "Indigo.Social",
-        "description": "Área voltada para a promoção de projetos sociais. Aqui, realizamos mentorias, cursos, oficinas e atividades diverrsas com pessoas em algum tipo de marginalização social. Também empoderamos vários dos jovens que adentram na Indigo por meio desse braço para que atuem em outras frentes da Indigo, como realizando projetos ou mesmo sendo acelerado para um futuro empreendedor."
-      },
-      {
-        "id": 3,
-        "icon": "../../assets/image/charity/idea.svg",
-        "title": "Ecossistema Indigo",
-      "description": "Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: Talks, Lean Coffees, Design Jams, Hackathons e núcleos, como o Health"
-      }
-    ]
-  },
   "milestoneData": {
     "title": "Nossas conquistas",
     "amount": "+100",
@@ -218,8 +132,9 @@
     "slogan": "Missão e valores",
     "title": "De sonhadores para transformadores",
     "text1": "Buscamos criar um série de orientações, facilitações e estruturas favoráveis à pontencialização do sucesso individual de nossos membros para incrementarmos o impacto no coletivo.", 
-    "text2": "Acreditamos que o empreendedorismo é um caminho capaz de guiar a transformação de nossa sociedade e que são os jovens o público mais crucial para essa mudança. Estimulamos o protagonismo, a crítica, a coparticipação e a transdisciplinaridade, posionando-nos como uma instituição, sobretudo, de conexão e de facilitação.\nAbraçando conceitos como \"life-long learners\", \"cut the bullshit\",  \"data-driven\" e \"action-oriented\" e \"hands on\", apoiamos um mindset de pessoas que estão sempre aprendendo, sendo pragmáticas, coerentes e direcionadas pela realização embasada em crítica analítica, partcipativas e ávidas pela geração de impacto. Por fim, acreditamos no profundo apoio social, mobilizando nossos recursos para ajudar os outros em nosso entorno e, juntos, fazermos o máximo que nos é possível para fazer o futuro um tempo que valha cada vez mais a pena ser vivido.",
-    "text3": "Somos Indigo, uma geração de jovens otimistas, porém impacientes quanto a implementação de mudanças no status quo e capazes de estabelecer conexões inéditas entre vários campos do conhecimento humano nos orientando para a conciliação da realização pessoal na transformação social",
+    "text2": "Acreditamos que o empreendedorismo é um caminho capaz de guiar a transformação de nossa sociedade, e que são os jovens o público mais crucial para essa mudança. Estimulamos o protagonismo, a coparticipação e a transdisciplinaridade, posionando-nos como uma instituição, sobretudo, de conexão e de facilitação.",
+    "text3": "Por fim, acreditamos no profundo apoio social, mobilizando nossos recursos para ajudar os outros em nosso entorno e, juntos, fazermos o máximo que nos é possível para fazer o futuro um tempo que valha cada vez mais a pena ser vivido.",
+    "text4": "Somos Indigo, uma geração de jovens otimistas, porém impacientes quanto a implementação de mudanças no status quo e capazes de estabelecer conexões inéditas entre vários campos do conhecimento humano nos orientando para a conciliação da realização pessoal na transformação social",
     "lists": [
     ],
     "image": "../../assets/image/charity/team-spirit.svg"
@@ -319,22 +234,22 @@
         {
           "id": 1,
           "text": "Challenge",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 2,
           "text": "Sprint",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 3,
           "text": "Consultoria",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 4,
           "text": "Capacitação",
-          "link": "#1"
+          "link": ""
         }
       ]
     },
@@ -345,27 +260,27 @@
         {
           "id": 1,
           "text": "Talks",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 2,
           "text": "Lean coffees",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 3,
           "text": "Design jams",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 4,
           "text": "Hackathons",
-          "link": "#1"
+          "link": ""
         },
         {
           "id": 5,
           "text": "Health",
-          "link": "#1"
+          "link": ""
         }
       ]
     },

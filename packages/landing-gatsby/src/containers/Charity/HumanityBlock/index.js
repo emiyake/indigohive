@@ -9,7 +9,6 @@ import Container from 'common/src/components/UI/Container';
 import BlockWrapper, {
   ContentWrapper,
   List,
-  Item,
   ImageWrapper,
 } from './humanityBlock.style';
 
@@ -39,44 +38,42 @@ const HumanityBlock = ({ row, col }) => {
     }
   `);
 
-  const { slogan, title, text, lists, image } = data.charityJson.humanityData;
+  const { image } = data.charityJson.humanityData;
+
+  const [index, setIndex] = React.useState(0);
+
+  const handleMouse = (index) => () => {
+    setIndex(index);
+  }
 
   return (
     <BlockWrapper id="initiave">
       <Container width="1260px">
         <Box className="row" {...row}>
           <Box className="col" {...col}>
-            <ImageWrapper>
+            <ImageWrapper index={index}>
               <Image src={image.publicURL} alt="Charity Landing" />
             </ImageWrapper>
           </Box>
           <Box className="col" {...col}>
             <ContentWrapper>
-              <Heading as="h5" content={slogan} />
-              <Heading content={title}/>
-              <Text content={text} />
+              <Heading as="h5" content='Nossa rede' />
+              <Heading content='Indigo Hive' />
+              <Text content='A Indigo Hive faz jus ao seu nome, atuando como uma verdadeira colmeia que conecta pessoas e oportunidades. Acreditamos no desenvolvimento dos participantes por meio do ecossistema que estamos criando. Por isso, dividimos nossa iniciativa em 3 grandes braços:' />
               <List>
-                <Subtitulo>Indigo.X</Subtitulo>
-                É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.
-
-                <Subtitulo>Indigo.Social</Subtitulo>
-                Área voltada para a promoção de projetos sociais. Aqui, realizamos mentorias, cursos, oficinas e atividades diverrsas com pessoas em algum tipo de marginalização social. Também empoderamos vários dos jovens que adentram na Indigo por meio desse braço para que atuem em outras frentes da Indigo, como realizando projetos ou mesmo sendo acelerado para um futuro empreendedor.
-
-                <Subtitulo>Ecossistema Indigo</Subtitulo>
-                Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: talks, lean coffees, design jams e hackathons, bem como constituimos núcleos voltados paar áreas de atuação específicas, como o Indigo.health.
-
-                {/* {lists.map(item => (
-                  <>
-                    <Item key={`list_key${item.id}`}>{item.text}</Item>
-                    fdfdfd
-                  </>
-                ))} */}
+                <div onMouseEnter={handleMouse(0)}>
+                  <Subtitulo>Indigo.X</Subtitulo>
+                  <Text content='É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.' />
+                </div>
+                <div onMouseEnter={handleMouse(1)}>
+                  <Subtitulo>Ecossistema Indigo</Subtitulo>
+                  <Text content='Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: talks, lean coffees, design jams e hackathons' />
+                </div>
+                <div onMouseEnter={handleMouse(2)}>
+                  <Subtitulo>Indigo.Social</Subtitulo>
+                  <Text content='Área voltada para a promoção de projetos sociais. Empoderamos os jovens formando-os profissionalmente ou mesmo sendo capacitando-os para um futuro empreendedor.' />
+                </div>
               </List>
-
-              {/* <a className="learn__more-btn" href="#1">
-                <span className="hyphen" />
-                <span className="btn_text">Learn More </span>
-              </a> */}
             </ContentWrapper>
           </Box>
         </Box>
