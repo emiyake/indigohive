@@ -38,9 +38,9 @@ export default () => {
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <Navbar />
           </Sticky>
-          <DrawerProvider>
+          {/* <DrawerProvider>
             <DrawerSection />
-          </DrawerProvider>
+          </DrawerProvider> */}
           <ContentWrapper> 
             <BannerSection />
             <HumanityBlock /> 
