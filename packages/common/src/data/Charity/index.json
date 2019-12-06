@@ -86,6 +86,11 @@
       }
     ]
   },
+  "mentorData": {
+    "edmar": "../../assets/image/charity/mentor/edmar.jpg",
+    "erica": "../../assets/image/charity/mentor/erica.png",
+    "ricardo": "../../assets/image/charity/mentor/ricardo.jpg"
+  },
   "milestoneData": {
     "title": "Nossas conquistas",
     "amount": "+100",
@@ -108,25 +113,8 @@
       }
     ]
   },
-  "humanityData": {
-    "image": "../../assets/image/charity/estruturaIndigo.png",
-    "slogan": "Nossa rede",
-    "title": "Indigo Hive",
-    "text": "A Indigo Hive faz jus ao seu nome, atuando como uma verdadeira colmeia que conecta pessoas e oportunidades.\nAcreditamos no desenvolvimento dos participantes por meio do ecossistema que estamos criando. Por isso, dividimos nossa iniciativa em 3 grandes braços:",
-    "lists": [
-      {
-        "id": 1,
-        "text": "Indigo.X"
-      },
-      {
-        "id": 2,
-        "text": "Indigo.Social"
-      },
-      {
-        "id": 3,
-        "text": "Ecossistema Indigo"
-      }
-    ]
+  "networkData": {
+    "image": "../../assets/image/charity/estruturaIndigo.png"
   },
   "promotionData": {
     "slogan": "Missão e valores",

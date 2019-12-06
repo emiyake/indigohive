@@ -3,20 +3,20 @@ import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
 import { charityTheme } from 'common/src/theme/charity';
 import { ResetCSS } from 'common/src/assets/css/style';
-import { DrawerProvider } from 'common/src/contexts/DrawerContext';
+// import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import Navbar from '../containers/Charity/Navbar';
-import DrawerSection from '../containers/Charity/DrawerSection';
+// import DrawerSection from '../containers/Charity/DrawerSection';
 import BannerSection from '../containers/Charity/BannerSection';
 import FeatureSection from '../containers/Charity/FeatureSection';
 import WorkSection from '../containers/Charity/WorkSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
-import HumanityBlock from '../containers/Charity/HumanityBlock';
+import NetworkSection from '../containers/Charity/NetworkSection';
 import PromotionBlock from '../containers/Charity/PromotionBlock';
-import DonateSection from '../containers/Charity/DonateSection';
-import MapSection from '../containers/Charity/MapSection';
-import FundraiserSection from '../containers/Charity/FundraiserSection';
-import BlogSection from '../containers/Charity/BlogSection';
-import ClientBlock from '../containers/Charity/ClientBlock';
+// import DonateSection from '../containers/Charity/DonateSection';
+// import MapSection from '../containers/Charity/MapSection';
+// import FundraiserSection from '../containers/Charity/FundraiserSection';
+// import BlogSection from '../containers/Charity/BlogSection';
+// import ClientBlock from '../containers/Charity/ClientBlock';
 import MentorSection from '../containers/Charity/MentorSection';
 import Footer from '../containers/Charity/Footer';
 import {
@@ -43,7 +43,7 @@ export default () => {
           </DrawerProvider> */}
           <ContentWrapper> 
             <BannerSection />
-            <HumanityBlock /> 
+            <NetworkSection /> 
             <FeatureSection />
             <MentorSection />
             <WorkSection />

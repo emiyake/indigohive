@@ -10,7 +10,7 @@ import BlockWrapper, {
   ContentWrapper,
   List,
   ImageWrapper,
-} from './humanityBlock.style';
+} from './networkSection.style';
 
 import styled from 'styled-components';
 
@@ -18,27 +18,20 @@ const Subtitulo = styled.h4`
   margin-bottom: 0;
 `;
 
-const HumanityBlock = ({ row, col }) => {
+const NetworkSection = ({ row, col }) => {
   const data = useStaticQuery(graphql`
     query {
       charityJson {
-        humanityData {
+        networkData {
           image {
             publicURL
-          }
-          slogan
-          title
-          text
-          lists {
-            id
-            text
           }
         }
       }
     }
   `);
 
-  const { image } = data.charityJson.humanityData;
+  const { image } = data.charityJson.networkData;
 
   const [index, setIndex] = React.useState(0);
 
@@ -82,22 +75,22 @@ const HumanityBlock = ({ row, col }) => {
   );
 };
 
-// HumanityBlock style props
-HumanityBlock.propTypes = {
+// NetworkSection style props
+NetworkSection.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
 };
 
-// HumanityBlock default style
-HumanityBlock.defaultProps = {
-  // HumanityBlock row default style
+// NetworkSection default style
+NetworkSection.defaultProps = {
+  // NetworkSection row default style
   row: {
     flexBox: true,
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
   },
-  // HumanityBlock col default style
+  // NetworkSection col default style
   col: {
     width: ['100%', '50%', '50%'],
     pl: '15px',
@@ -106,4 +99,4 @@ HumanityBlock.defaultProps = {
   },
 };
 
-export default HumanityBlock;
+export default NetworkSection;

@@ -15,7 +15,6 @@ const shake = keyframes`
 
 const BannerWrapper = styled.div`
   display: flex;
-  height: 100vh;
   margin-bottom: 81px;
   @media only screen and (max-width: 1360px) {
     margin-bottom: 50px;

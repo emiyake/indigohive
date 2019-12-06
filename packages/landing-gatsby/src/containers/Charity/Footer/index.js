@@ -10,17 +10,14 @@ import { medium } from 'react-icons-kit/fa/medium';
 import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
-import Image from 'reusecore/src/elements/Image';
 import Container from 'common/src/components/UI/Container';
 import FooterWrapper, {
   List,
   ListItem,
   CopyrightText,
   SocialList,
-  SelectWrapper,
 } from './footer.style';
 
-import LogoImage from 'common/src/assets/image/charity/logo.svg';
 
 const Footer = ({ row, col, colOne, colTwo }) => {
   const data = useStaticQuery(graphql`

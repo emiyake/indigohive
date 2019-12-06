@@ -2,18 +2,31 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Text from 'reusecore/src/elements/Text';
 import Tab, { Panel } from 'common/src/components/Tabs';
-import SectionWrapper, { ContentWrapper, HeaderWrapper } from './mentorSection.style';
+import SectionWrapper, { ContentWrapper } from './mentorSection.style';
 import Heading from 'reusecore/src/elements/Heading';
-
-import Edmar from 'common/src/assets/image/charity/mentor/edmar.jpg';
-import Erica from 'common/src/assets/image/charity/mentor/erica.png';
-import Ricardo from 'common/src/assets/image/charity/mentor/ricardo.jpg';
+import { useStaticQuery, graphql } from 'gatsby';
+import Image from 'reusecore/src/elements/Image';
 
 const MentorSection = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      charityJson {
+        mentorData {
+          edmar {
+            publicURL
+          }
+          erica {
+            publicURL
+          }
+          ricardo {
+            publicURL
+          }
+        }
+      }
+    }
+  `);
 
-  const title = text => {
-    return { __html: text };
-  };
+  const { erica, edmar, ricardo } = data.charityJson.mentorData;
 
   return (
     <>
@@ -24,7 +37,7 @@ const MentorSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <img src={Ricardo} className="tab_image" />
+                  <Image src={ricardo.publicURL} alt="Ricardo di Lazzaro" />
                 </div>
               </Fade>
               <div className="content">
@@ -37,7 +50,7 @@ const MentorSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <img src={Edmar} className="tab_image" />
+                  <Image src={edmar.publicURL} alt="Edmar Miyake" />
                 </div>
               </Fade>
               <div className="content">
@@ -50,7 +63,7 @@ const MentorSection = () => {
             <ContentWrapper>
               <Fade>
                 <div className="image">
-                  <img src={Erica} className="tab_image" />
+                  <Image src={erica.publicURL} alt="Erica Isomura" />
                 </div>
               </Fade>
               <div className="content">

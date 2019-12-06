@@ -10,7 +10,7 @@ import BannerSection from '../containers/Charity/BannerSection';
 import FeatureSection from '../containers/Charity/FeatureSection';
 import WorkSection from '../containers/Charity/WorkSection';
 import MilestoneBlock from '../containers/Charity/MilestoneBlock';
-import HumanityBlock from '../containers/Charity/HumanityBlock';
+import HumanityBlock from '../containers/Charity/NetworkSection';
 import PromotionBlock from '../containers/Charity/PromotionBlock';
 import DonateSection from '../containers/Charity/DonateSection';
 import MapSection from '../containers/Charity/MapSection';

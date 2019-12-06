@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <NavbarWrapper className="navbar">
       <Container fullWidth={true}>
-        <Link className="logo" to="/charity">
+        <Link className="logo" to="/">
           <Image src={logoImage} alt="Charity React Next Landing" />
         </Link>
       </Container>

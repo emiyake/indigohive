@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import Box from 'reusecore/src/elements/Box';
-import Image from 'reusecore/src/elements/Image';
+// import Image from 'reusecore/src/elements/Image';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Container from 'common/src/components/UI/Container';
@@ -20,26 +19,6 @@ const Subtitulo = styled.h4`
 `;
 
 const HumanityBlock = ({ row, col }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      charityJson {
-        humanityData {
-          image {
-            publicURL
-          }
-          slogan
-          title
-          text
-          lists {
-            id
-            text
-          }
-        }
-      }
-    }
-  `);
-
-  const { image } = data.charityJson.humanityData;
 
   return (
     <BlockWrapper id="initiave">
