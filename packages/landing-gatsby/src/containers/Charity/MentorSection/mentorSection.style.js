@@ -195,15 +195,11 @@ export const ContentWrapper = styled.div`
   }
 
   .content {
-    width: 650px;
-    padding: 80px 86px 77px;
+    width: 700px;
+    padding: 56px 40px;
     background-color: ${themeGet('colors.primary', '#FCF22B')};
     @media only screen and (max-width: 1440px) {
-      width: 500px;
-      padding: 70px 65px;
-    }
-    @media only screen and (max-width: 1360px) {
-      width: 432px;
+      width: 700px;
       padding: 56px 50px;
     }
     @media only screen and (max-width: 991px) {

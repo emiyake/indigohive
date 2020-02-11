@@ -14,21 +14,35 @@ const MentorSection = () => {
         mentorData {
           edmar {
             childImageSharp {
-              fluid(quality: 90) {
+              fluid(maxWidth: 700) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           erica {
             childImageSharp {
-              fluid(quality: 90) {
+              fluid(maxWidth: 700) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           ricardo {
             childImageSharp {
-              fluid(quality: 90) {
+              fluid(maxWidth: 700) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          vinicius {
+            childImageSharp {
+              fluid(maxWidth: 700) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          ivan {
+            childImageSharp {
+              fluid(maxWidth: 700) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -38,7 +52,7 @@ const MentorSection = () => {
     }
   `);
 
-  const { erica, edmar, ricardo } = data.charityJson.mentorData;
+  const { erica, edmar, ricardo, vinicius, ivan } = data.charityJson.mentorData;
 
   return (
     <>
@@ -81,6 +95,32 @@ const MentorSection = () => {
               <div className="content">
                 <h2>Erica Isomura</h2>
                 <Text content='Erica Isomura é sócia da Corall, consultora e coach sistêmica com mais de 15 anos de experiência em estratégia e gestão com pessoas, especialista em desenvolvimento humano e organizacional, mudança cultural, desenvolvimento de liderança e times. Trabalha com implantação e cocriação de modelos alternativos de gestão, tais como: empresas horizontais sem chefes, autogeridas em redes e flats em contextos tecnológicos e criativos. Doutoranda em psicologia social, pela Universidade John F. Kennedy, especialista em estratégia e gestão de pessoas pela Fundação Getúlio Vargas, psicóloga, Executive & Professional Coach certificada pela Behavioural Coach Institute e International Coaching Council, facilitadora de grupos QUEST e mentora pelo CAC - Center for Advanced Coach e consteladora sistêmica pelo Instituto Koziner. Professora universitária e pesquisadora da espiritualidade organizacional e das relações de trabalho do futuro.' />
+              </div>
+            </ContentWrapper>
+          </Panel>
+          <Panel title={<Text content='Vinicius Oyama'/>} >
+            <ContentWrapper>
+              <Fade>
+                <div className="image">
+                  <Image fluid={vinicius.childImageSharp.fluid} alt="Vinicius Oyama"/>
+                </div>
+              </Fade>
+              <div className="content">
+                <h2>Vinicius Oyama</h2>
+                <Text content='Fundador da Codus, consultoria de produtos digitais, começou a empreender com 22 anos no último ano da faculdade. Vinicius passou pelo ciclo completo de uma empresa bem sucedida: tirou do papel seu sonho concebido na sala de casa, passou pela consolidação, pelo crescimento e, fechando o ciclo, passou pela aquisição de sua empresa. Aficcionado por tecnologia e muito curioso, não só entendendo, mas participando ativamente no impacto que ela pode gerar nas pessoas e na sociedade, formou iniciativas de ensino e mentorias dentro da própria empresa, proporcionando valiosos aprendizados a muitas pessoas que por lá passaram. Aprender, colaborar, criar e se desafiar são valores que sempre nortearam suas ações. Assim, a IndigoHive se conecta enquanto oportunidade para que ele possa reafirmar todos esses valores, utilizar sua experiência para ajudar outras pessoas e também aprender muito nessa jornada!' />
+              </div>
+            </ContentWrapper>
+          </Panel>
+          <Panel title={<Text content='Rafael Garcia'/>} >
+            <ContentWrapper>
+              <Fade>
+                <div className="image">
+                  <Image fluid={ivan.childImageSharp.fluid} alt="Rafael Garcia"/>
+                </div>
+              </Fade>
+              <div className="content">
+                <h2>Rafael Garcia</h2>
+                <Text content='Engenheiro de Computação pela Poli-USP, começou a empreender durante a graduação em 2006, aos 19 anos e não parou. Casado e pai de uma menina, é co-fundador da Infosimples, da Neuronio.ai e de outras startups que ficaram pelo caminho. Acredita que o empreendedorismo é a forma mais eficiente de transformar positivamente a própria vida e além de contribuir para sociedade e, em última instância, para o Brasil. Desde 2014, é voluntário em cursos de empreendedorismo e computação na Poli-USP, que fomenta a formação de futuros engenheiros e empreendedores. Durante a sua jornada, teve a felicidade encontrar mentores que acabaram virando amigos e tiveram papel importante na sua evolução profissional e pessoal. Por isso, acredita muito na Indigo Hive e no quanto elas podem ajudar outros a explorarem seu potencial e serem agentes de transformação.' />
               </div>
             </ContentWrapper>
           </Panel>
