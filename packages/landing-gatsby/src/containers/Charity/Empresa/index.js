@@ -22,6 +22,13 @@ const HeroWrapper = styled.div`
     background-size: 65%;
     background-repeat: no-repeat;
     background-position: right center;
+
+    @media only screen and (max-width: 667px) {
+        justify-content: flex-start;
+        background-size: 100%;
+        height: 75vh;
+        background-position: center bottom;
+    }
 `;
 
 const ColumnWrapper = styled.div`
@@ -32,6 +39,11 @@ const ColumnWrapper = styled.div`
     align-items: center;
     margin-bottom: 100px;
     margin-top: 100px;
+
+    @media only screen and (max-width: 667px) {
+        flex-direction: column;
+        padding: 0 10%;
+    }
 `;
 
 const ContatosWrapper = styled.div`
@@ -45,6 +57,13 @@ const ContatosWrapper = styled.div`
     background-size: 65%;
     background-repeat: no-repeat;
     background-position: right center;
+
+    @media only screen and (max-width: 667px) {
+        background-position: center bottom;
+        height: 350px;
+        justify-content: flex-start;
+        margin-bottom: 32px;
+    }
 `;
 
 const LastColumnWrapper = styled.div`
@@ -54,6 +73,11 @@ const LastColumnWrapper = styled.div`
     padding: 0 20%;
     align-items: center;
     margin-bottom: 30px;
+
+    @media only screen and (max-width: 667px) {
+        flex-direction: column;
+        padding: 0 10%;
+    }
 `;
 
 const ParceiroWrapper = styled.div`
@@ -64,15 +88,23 @@ const ParceiroWrapper = styled.div`
     align-items: center;
     margin-bottom: 50px;
 
+    @media only screen and (max-width: 667px) {
+        flex-direction: column;
+        padding: 0 15%;
+    }
 `;
 
 const H1 = styled.h1`
     font-family: Helvetica;
     font-size: 70px;
     font-weight: lighter;
-    width: 50%; 
     display: block;
     margin-bottom: 8px;
+
+    @media only screen and (max-width: 991px) {
+        font-size: 50px;
+        text-align: center;
+    }
 `;
 
 const H2 = styled.h2`
@@ -84,6 +116,15 @@ const H2 = styled.h2`
     margin-top: 8px;
     color: grey;
     line-height: 35px;
+
+    @media only screen and (max-width: 991px) {
+        width: 50%; 
+        font-size: 24px;
+    }
+    @media only screen and (max-width: 667px) {
+        width: 100%;
+        text-align: center;
+    }
 `;
 
 const H3 = styled.h3`
@@ -123,6 +164,10 @@ const P2 = styled.p`
 const Img = styled.img`
     width: 50%; 
     padding: 30px; 
+
+    @media only screen and (max-width: 667px) {
+        width: 100%; 
+    }
 `;
 
 const Img2 = styled.img`
