@@ -59,7 +59,7 @@ const NetworkSection = ({ row, col }) => {
               <Text content='A Indigo Hive faz jus ao seu nome, atuando como uma verdadeira colmeia que conecta pessoas e oportunidades. Acreditamos no desenvolvimento dos participantes por meio do ecossistema que estamos criando. Por isso, dividimos nossa iniciativa em 3 grandes braços:' />
               <List>
                 <div onMouseEnter={handleMouse(0)}>
-                  <Subtitulo>Indigo.X</Subtitulo>
+                  <Subtitulo>Indigo.health</Subtitulo>
                   <Text content='É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.' />
                 </div>
                 <div onMouseEnter={handleMouse(1)}>

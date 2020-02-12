@@ -20,8 +20,8 @@ const WorkSection = () => {
         <FeatureWrapper>
           <BlogPost
             thumbUrl={Connection}
-            title='Indigo.X'
-            link='/indigox'
+            title='Indigo.health'
+            link='/indigohealth'
             excerpt='É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.'
           />
           <BlogPost
