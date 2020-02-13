@@ -250,7 +250,7 @@ export const Parceiros = () => {
             <ParceiroWrapper>
                 <div>
                     <H5>Corall</H5>
-                    <P2>Para desafios nesse setor tão complexo que é a saúde, não poderíamos deixar de atuar junto a profundos conhecedores do mercado e das metodologias inerentes ao que fazemos. Assim, contamos com o apoio estratégico e operacional dos seguintes parceiros em nossos projetos</P2>
+                    <P2>A Corall é uma consultoria organizacional focada em liberar a potência de pessoas e organizações. Atuando com processos de transformação e cultura, fortalecimento da comunicação e dos fluxos na organização, a Corall gera, para seus parceiros, mais clareza sobre a situação deles e apoia a suas evoluções para um futuro mais potente.</P2>
                 </div>               
                 <Img2 src={Corall} />
             </ParceiroWrapper>
