@@ -55,7 +55,7 @@ export default () => {
             <BlogSection />
             <ClientBlock /> */}
           </ContentWrapper>
-          <Footer />
+          {/* <Footer /> */}
         </CharityWrapper>
       </Fragment>
     </ThemeProvider>
