@@ -22,7 +22,7 @@ const WorkSection = () => {
             thumbUrl={Connection}
             title='Indigo.health'
             link='/indigohealth'
-            excerpt='É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.'
+            excerpt='É o braço do grupo que atua sobre desafios na área da saúde, aplicando metodologias de Design Thinking e convergindo sinergicamente conhecimentos e habilidades de várias áreas da saúde, da tecnologia e de design para compor nossa proposta de valor.'
           />
           <BlogPost
             thumbUrl={Goal}

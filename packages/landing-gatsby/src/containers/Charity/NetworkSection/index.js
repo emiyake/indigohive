@@ -16,6 +16,10 @@ import styled from 'styled-components';
 
 const Subtitulo = styled.h4`
   margin-bottom: 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const NetworkSection = ({ row, col }) => {
@@ -59,15 +63,15 @@ const NetworkSection = ({ row, col }) => {
               <Text content='A Indigo Hive faz jus ao seu nome, atuando como uma verdadeira colmeia que conecta pessoas e oportunidades. Acreditamos no desenvolvimento dos participantes por meio do ecossistema que estamos criando. Por isso, dividimos nossa iniciativa em 3 grandes braços:' />
               <List>
                 <div onMouseEnter={handleMouse(0)}>
-                  <Subtitulo>Indigo.health</Subtitulo>
+                  <Subtitulo><a href="./indigohealth">Indigo.health</a></Subtitulo>
                   <Text content='É o braço de projetos de nossa iniciativa, compondo-se de 4 eixos de atividades principais: challenges, sprints, consultorias e capacitações.' />
                 </div>
                 <div onMouseEnter={handleMouse(1)}>
-                  <Subtitulo>Ecossistema Indigo</Subtitulo>
+                  <Subtitulo><a href="./ecossistema">Ecossistema Indigo</a></Subtitulo>
                   <Text content='Para viabilizar a excelência de nossa atuação e impactar cada vez mais o cenário nacional, promovemos algumas iniciativas para estruturar o nosso ecossistema e habilitar o progresso de nossos membros: talks, lean coffees, design jams e hackathons' />
                 </div>
                 <div onMouseEnter={handleMouse(2)}>
-                  <Subtitulo>Indigo.Social</Subtitulo>
+                  <Subtitulo><a href="social">Indigo.Social</a></Subtitulo>
                   <Text content='Área voltada para a promoção de projetos sociais. Empoderamos os jovens formando-os profissionalmente ou mesmo sendo capacitando-os para um futuro empreendedor.' />
                 </div>
               </List>
